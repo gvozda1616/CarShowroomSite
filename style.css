@@ -1,0 +1,230 @@
+body{
+    background-color: rgba(36, 36, 39, 1);
+    color: white;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    width: 1440px;
+    height: 3000px;
+}
+#header{
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+    position: relative;
+}
+#leftSideHeader{
+    position: absolute;
+    left: 127px;
+}
+#companyName{
+    border-left: solid 2px rgba(217, 85, 131, 1);
+}
+#AVTO{
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#inscription1{
+    margin-top: 3px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+#profilePhoto{
+    position: absolute;
+    z-index: 1;
+}
+
+.leftInscription{
+    margin-top: 110px;
+}
+
+#showroom{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(92.07deg, #003ACE 0%, #CE0094 74.9%);
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+    user-select: none;
+}
+#userRequest{
+    display: flex;
+    background: linear-gradient(95.49deg, #53498F 0%, #D95583 100%);
+    width: 200px;
+    height: 62px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 23px;
+}
+#linkBotton{
+    width: 200px;
+    height: 42px;
+    color: rgba(255, 255, 255, 1);
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 18px;
+    border: solid 2px transparent;
+    z-index: 2;
+}
+#linkBotton:hover{
+    border: solid 2px white;
+    color: white;
+}
+#linkBottonTextInside{
+    margin-left: 21px;
+    padding-top: 18px;
+}
+#linkInfoAboutCompany{
+    display: flex;
+    margin-left: 780px;
+    margin-top: 36px;
+    z-index: 2;
+}
+.links{
+    display: flex;
+    width: avto;
+    height: 40px;
+    margin-left: 90px;
+}
+.linksInfo{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    transition: color 0.8s;
+}
+.linksInfo:hover{
+    color: rgba(255, 0, 0, 1);
+}
+#alignFirstLink{
+    text-align: right;
+}
+#bigNumber{
+    position: absolute;
+    right: -131px;
+    left: 1030px;
+    overflow: hidden;
+    color: rgba(132, 132, 132, 0.5);
+    font-family: Roboto;
+    font-size: 490px;
+    font-weight: 100;
+    line-height: 574px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 84px;
+    user-select: none;
+}
+#mainText{
+    display: inline;
+    position: absolute;
+    top: 835px;
+    right: 125px;
+    left: 258px;
+    width: 1030px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    line-height: 36px;
+}
+.mainTextInside{
+    text-indent: 25px;
+    margin-bottom: 65px;
+}
+#redTextInMain{
+    color: red;
+    font-family: Ruda;
+    font-weight: 500;
+    font-size: 40px;
+}
+#divHits{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 1583px;
+    right: 975px;
+    left: 130px;
+    bottom: 1199px;
+    background: linear-gradient(120.71deg, #003ACE 31.37%, #FF0000 79.66%);
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+.hits{
+    margin: 0;
+    font-family: Ruda;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61px;
+}
+#menuItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-column-gap: 116px;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+#cars{
+    position: absolute;
+    top: 1812px;
+    left: 258px;
+    right: 194px;
+    bottom: 388px;
+}
+.carsFoto{
+    margin-bottom: 56px;
+    border: solid 1px transparent;
+    height: 316px;
+}
+.carsFoto:hover{
+    border: solid 1px blue;
+}
+#footerText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 1106px;
+    height: 46px;
+    font-size: 15px;
+    font-family: Ruda;
+    line-height: 18.26px;
+    font-weight: 500;
+    margin-left: 215px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+#firstFooterSentence{
+    margin-bottom: 10px;
+}
+footer{
+    position: absolute;
+    top: 2556px;
+    width: 1440px;
+    height: 332px;
+    background: linear-gradient(0deg, rgba(51, 51, 53, 0.5) 0%, rgba(103, 103, 103, 0) 100%);
+
+}
+#socialMediaLinks{
+    display: flex;
+    justify-content: center;
+}
+.socialMedia{
+    margin-left: 45px;
+    border: solid 1px transparent;
+}
+.socialMedia:hover{
+    border: solid 1px white;
+}
